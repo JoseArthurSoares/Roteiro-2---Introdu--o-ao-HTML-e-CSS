@@ -170,7 +170,12 @@ img{
 .lista-tematicas{
     list-style: none;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
 }
+
 
 .lista-tematicas_item{
     margin-left: -15px;
